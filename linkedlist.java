@@ -41,4 +41,18 @@ class linkedlist {
         // at this point both a and b should point at null if they are of the same
         // length
     }
+
+    public Node reverseList(Node head) {
+        Node prev = null, next = null;
+        Node curr = head;
+
+        while (curr != null) {
+            next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+        }
+        head = prev;
+        return head;
+    }
 }

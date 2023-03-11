@@ -55,4 +55,17 @@ class linkedlist {
         head = prev;
         return head;
     }
+
+    public boolean detectLoop_Hash(Node head) {
+        return false;
+    }
+
+    public boolean detectLoop_Floyd(Node head) {
+        return false;
+    }
+
+    public boolean listPalindromeCheck(Node head) {
+        return false;
+        // using stack
+    }
 }

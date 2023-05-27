@@ -68,4 +68,17 @@ class linkedlist {
         return false;
         // using stack
     }
+
+    public boolean listPalindromeCheck2(Node head) {
+        return false;
+        // using middle and reverse
+    }
+
+    public Node middleNode_M1(Node head) {
+        return head;
+    }
+
+    public Node middleNode_M2(Node head) {
+        return head;
+    }
 }
